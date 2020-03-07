@@ -8,7 +8,7 @@ class Artist
     @songs = []
   end
 
-  def self.song_count(songs)
+  def self.song_count
    @@song_count
  end
 
@@ -28,8 +28,8 @@ class Artist
     self.songs << s
   end
 
-  def self.song_count
-    Song.all.length
-  end
+  # def self.song_count
+  #   Song.all.length
+  # end
 
 end
