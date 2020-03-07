@@ -12,9 +12,9 @@ class Artist
    @@song_count
  end
 
- # def songs
- #   @songs
- # end
+ def songs
+   @songs
+ end
 
 
   def add_song(song)
