@@ -1,6 +1,3 @@
-Learn more or give us feedback
-require_relative 'post'
-
 class Author
   attr_accessor :name, :posts
 
