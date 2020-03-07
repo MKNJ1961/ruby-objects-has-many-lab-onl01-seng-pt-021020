@@ -8,9 +8,9 @@ class Artist
     @songs = []
   end
 
- #  def self.song_count
- #   @@song_count
- # end
+  def self.song_count(songs)
+   @@song_count
+ end
 
  def songs
    @songs
